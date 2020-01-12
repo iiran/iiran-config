@@ -97,4 +97,16 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias nsh="cd ~/repo/urban-happiness ; npm run start"
+
+# cd local repo
+alias cdrp="cd ~/repo"
+
+# cd icloud repo
+alias cdnrp="cd ~/Library/Mobile\ Documents/com~apple~CloudDocs/repo"
+
+# edit zshrc
+alias vish="vim ~/.zshrc"
+
+# change default directory of .zshrc
+# $ ln -s ~/path/to/origin/.zshrc ~/.zshrc
+
