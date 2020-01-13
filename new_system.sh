@@ -39,3 +39,12 @@ brew install youtube-dl
 brew install tree
 cargo install tokei
 
+# font
+
+## cascadia
+## - mono(fix-width) for char-img
+## - pl for powerline
+curl https://github.com/microsoft/cascadia-code/releases/download/v1911.21/CascadiaMonoPL.ttf -O
+CascadiaMonoPL.ttf
+
+
