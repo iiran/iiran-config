@@ -1,0 +1,33 @@
+{
+    "go.formatTool": "goimports",
+    "go.useLanguageServer": true,
+    "files.exclude": {
+        "**/node_modules": true
+    },
+    "terminal.integrated.fontFamily": "Cascadia Code",
+    "editor.fontFamily":  "Cascadia Code",
+    "editor.minimap.renderCharacters": false,
+    "editor.minimap.enabled": false,
+    "editor.lineNumbers": "relative",
+    "editor.glyphMargin": false,
+    "editor.fontSize": 16,
+    "editor.fontLigatures": false,
+    "workbench.activityBar.visible": false,
+    "files.autoSave": "afterDelay",
+    "editor.tabSize": 2,
+    "window.zoomLevel": 0,
+    "prettier.semi": true,
+    "editor.folding": true,
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "workbench.colorTheme": "Nord",
+    "editor.wordWrapColumn": 120
+}
+
