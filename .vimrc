@@ -122,4 +122,4 @@ filetype plugin on
 " this saves the buffer whenever text is changed. (VIM 7.4)
 " ref (https://stackoverflow.com/questions/6991638/how-to-auto-save-a-file-every-1-second-in-vim/27387138#27387138)
 " 只有直接打开的文件有用, :e :n 打开的文件无效
-autocmd TextChanged,TextChangedI <buffer> silent write
+" autocmd TextChanged,TextChangedI <buffer> silent write

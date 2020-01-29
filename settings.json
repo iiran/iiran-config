@@ -1,33 +1,19 @@
 {
-    "go.formatTool": "goimports",
-    "go.useLanguageServer": true,
+    "workbench.colorTheme": "Atom One Dark",
+    "cmake.configureOnOpen": true,
+    "files.autoSave": "onFocusChange",
     "files.exclude": {
         "**/node_modules": true
     },
-    "terminal.integrated.fontFamily": "Cascadia Code",
-    "editor.fontFamily":  "Cascadia Code",
-    "editor.minimap.renderCharacters": false,
+    "editor.fontFamily": "Cascadia Mono PL",
+    "editor.fontLigatures": true,
     "editor.minimap.enabled": false,
-    "editor.lineNumbers": "relative",
+    "editor.fontSize": 14,
+    "editor.renderWhitespace": "boundary",
     "editor.glyphMargin": false,
-    "editor.fontSize": 16,
-    "editor.fontLigatures": false,
-    "workbench.activityBar.visible": false,
-    "files.autoSave": "afterDelay",
-    "editor.tabSize": 2,
-    "window.zoomLevel": 0,
-    "prettier.semi": true,
-    "editor.folding": true,
-    "[typescript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[typescriptreact]": {
-        "editor.defaultFormatter": "vscode.typescript-language-features"
-    },
-    "[json]": {
-        "editor.defaultFormatter": "vscode.json-language-features"
-    },
-    "workbench.colorTheme": "Nord",
+    "editor.lineNumbers": "off",
+    "window.title": "${rootName}",
+    "vim.incsearch": true,
+    "window.zoomLevel": 1,
     "editor.wordWrapColumn": 120
 }
-

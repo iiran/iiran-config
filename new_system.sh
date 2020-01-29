@@ -35,9 +35,18 @@ brew install mysql
 brew install annie
 brew install youtube-dl
 
+## compile
+brew install cmake
+
+
+## lib
+brew install ncurses
+
 # toolset
 brew install tree
+brew install tldr
 cargo install tokei
+cargo install lsd
 
 # font
 

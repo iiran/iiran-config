@@ -104,9 +104,29 @@ alias cdrp="cd ~/repo"
 # cd icloud repo
 alias cdnrp="cd ~/Library/Mobile\ Documents/com~apple~CloudDocs/repo"
 
+# cd ~/Donloads
+alias cddl="cd ~/Downloads"
+
+# cd ~/Desktop
+alias cdds="cd ~/Desktop"
+
 # edit zshrc
 alias vish="vim ~/.zshrc"
 
 # change default directory of .zshrc
 # $ ln -s ~/path/to/origin/.zshrc ~/.zshrc
+
+# brew install ncurses
+export LDFLAGS="-L/usr/local/opt/ncurses/lib"
+export CPPFLAGS="-I/usr/local/opt/ncurses/include"
+
+# brew install lsd or cargo install lsd
+## extra fonts https://github.com/ryanoasis/nerd-fonts
+### brew tap homebrew/cask-fonts
+### brew cask install font-hack-nerd-font
+alias ls='lsd'
+alias l='ls -l'
+alias la='ls -a'
+alias lla='ls -la'
+alias lt='ls --tree'
 
