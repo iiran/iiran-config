@@ -113,6 +113,10 @@ alias cdds="cd ~/Desktop"
 # edit zshrc
 alias vish="vim ~/.zshrc"
 
+# proxy
+export http_proxy=http://127.0.0.1:1087
+export https_proxy=http://127.0.0.1:1087
+
 # change default directory of .zshrc
 # $ ln -s ~/path/to/origin/.zshrc ~/.zshrc
 

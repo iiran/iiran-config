@@ -10,6 +10,8 @@ brew install cask
 brew cask install docker
 brew cask install firefox
 brew cask install visual-studio-code
+brew cask install dash
+brew cask install iina
 
 # install app
 

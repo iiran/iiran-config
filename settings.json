@@ -10,10 +10,9 @@
     "editor.minimap.enabled": false,
     "editor.fontSize": 14,
     "editor.renderWhitespace": "boundary",
-    "editor.glyphMargin": false,
     "editor.lineNumbers": "off",
     "window.title": "${rootName}",
     "vim.incsearch": true,
-    "window.zoomLevel": 1,
+    "window.zoomLevel": 2,
     "editor.wordWrapColumn": 120
 }
